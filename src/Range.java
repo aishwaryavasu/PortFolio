@@ -17,4 +17,8 @@ public class Range {
             return true;
         return false;
     }
+    public Range getMergedRange(Range otherRange){
+        return new Range((this.start<otherRange.start)?this.start:otherRange.start,
+                (this.end>otherRange.end)?this.end:otherRange.end);
+    }
 }
