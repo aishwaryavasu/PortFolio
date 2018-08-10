@@ -4,6 +4,7 @@ import java.util.Comparator;
 
 public class PortFolio {
 
+    String name;
     ArrayList<Row> records = new ArrayList<>();
 
     public PortFolio(ArrayList<Row> inputRows) {

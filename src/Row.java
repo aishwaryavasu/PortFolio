@@ -16,4 +16,8 @@ public class Row {
     public List<Row> modifyRow(Row input){
         return null;
     }
+
+    private boolean hasIntersection(){
+        return true;
+    }
 }
